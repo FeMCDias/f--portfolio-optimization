@@ -1,0 +1,45 @@
+{
+  "allocation": [
+    { "ticker": "AAPL", "weight": 0.053796 },
+    { "ticker": "AXP", "weight": 0.027838 },
+    { "ticker": "BA", "weight": 0.034879 },
+    { "ticker": "CAT", "weight": 0.052533 },
+    { "ticker": "CRM", "weight": 0.078041 },
+    { "ticker": "CSCO", "weight": 0.075731 },
+    { "ticker": "CVX", "weight": 0.012655 },
+    { "ticker": "DIS", "weight": 0.087421 },
+    { "ticker": "DOW", "weight": 0.000945 },
+    { "ticker": "GS", "weight": 0.010096 },
+    { "ticker": "HD", "weight": 0.059714 },
+    { "ticker": "HON", "weight": 0.055119 },
+    { "ticker": "IBM", "weight": 0.059182 },
+    { "ticker": "JNJ", "weight": 0.009047 },
+    { "ticker": "JPM", "weight": 0.044807 },
+    { "ticker": "KO", "weight": 0.009872 },
+    { "ticker": "MCD", "weight": 0.008661 },
+    { "ticker": "MMM", "weight": 0.005800 },
+    { "ticker": "MSFT", "weight": 0.028888 },
+    { "ticker": "PG", "weight": 0.070847 },
+    { "ticker": "TRV", "weight": 0.059181 },
+    { "ticker": "UNH", "weight": 0.002110 },
+    { "ticker": "V", "weight": 0.058459 },
+    { "ticker": "VZ", "weight": 0.008112 },
+    { "ticker": "WMT", "weight": 0.086264 }
+  ],
+  "metrics": {
+    "inSampleSharpe": 3.056787,
+    "startTime": "2025-05-12T23:04:01.8430680Z",
+    "midTime": "2025-05-12T23:13:17.9686630Z",
+    "inSampleDurationSeconds": 556.126,
+    "totalCombos": 142506,
+    "simsPerCombo": 1000,
+    "totalSimulations": 142506000,
+    "processorCount": 8
+  }
+
+  ,
+  "outOfSample": {
+    "q1Sharpe": -0.258366,
+    "q1TotalReturn": -0.010659
+  }
+}

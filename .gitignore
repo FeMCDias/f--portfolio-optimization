@@ -1,0 +1,11 @@
+# .NET / F#
+bin/
+obj/
+*.fsproj.user
+.vscode/
+
+# Python
+.venv/
+__pycache__/
+
+.DS_Store
